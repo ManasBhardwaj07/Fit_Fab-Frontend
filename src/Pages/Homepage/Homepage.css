@@ -1,0 +1,129 @@
+/* Main container styling */
+.homepage {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Hero section styling */
+/* Hero section background and padding */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px; /* Increased padding */
+  background-color: #ffffff; /* Clean white background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 40px;
+}
+
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.shop-now-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.shop-now-btn:hover {
+  background-color: #555;
+}
+
+/* Intro section styling */
+.intro h2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.intro p {
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Product grid styling */
+/* Product grid styling */
+/* Product grid styling */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjusted for better alignment */
+  gap: 30px;
+  margin-top: 30px;
+}
+
+/* Product card styling */
+.product-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  justify-content: space-between; /* Distribute space between image and text */
+  height: 100%; /* Ensures consistent height for all product cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative; /* Ensures overlay positioning */
+  overflow: hidden; /* Prevents overflow on hover */
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  object-fit: cover;
+  transition: transform 0.3s ease;  /* Ensures proper image scaling */
+}
+
+.product-card p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  margin: 10px 0 0;
+}
+
+/* Product card hover effect */
+.product-card:hover {
+  transform: translateY(-8px); /* Slightly higher translation */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* More prominent shadow on hover */
+}
+
+/* Benefits section styling */
+.benefits {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.benefit-item {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+  padding: 10px; /* Added padding for balance */
+  transition: transform 0.3s ease;
+}
+
+.benefit-item:hover {
+  transform: scale(1.05); /* Subtle hover effect */
+}
